@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -20,6 +20,12 @@ h2 {
     color: #4e9aa7;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+figcaption {
+    font-weight: 600;
+    font-size: 18px;
+    color: #23506e;
 }
 
 fieldset {
@@ -90,12 +96,6 @@ fieldset {
     padding: 10px;
 }
 
-.services {
-    font-weight: 600;
-    font-size: 18px;
-    color: #23506e;
-}
-
 .round {
     max-height: 230px;
     margin-top: 20px;
@@ -108,6 +108,7 @@ fieldset {
 }
 
 .square {
+    max-width: 100%;
     max-height: 230px;
     margin-top: 20px;
     padding: 10px;
@@ -364,9 +365,6 @@ fieldset {
         text-align: center;
     }
     @media (max-width:768px) {
-        .row .text {
-            margin-left: 10px;
-        }
         #intro img {
             max-width: 100%;
         }
